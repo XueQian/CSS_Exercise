@@ -1,0 +1,216 @@
+ul#firstLine {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./image/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#iosIcon {
+    width: 40px !important;
+    height: 36px !important;
+    padding-left: 156px;
+}
+
+p#slideShare {
+    color: white;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+#searchIcon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -22px;
+    top: 3px;
+    background-image: url("./image/search-icon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+div#input {
+    padding-left: 18px;
+    margin-top: 7px;
+}
+
+input[type="text"] {
+    width: 160px;
+    opacity: 0.6;
+}
+
+#uploadButton {
+    margin-left: 480px;
+    margin-top: 10px;
+    background: #FF8000;
+    padding: 2px;
+    width: 50px;
+    height: 22px;
+    border: 1px #FF8000;
+    border-radius: 3px;
+}
+
+#aaButton {
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: #FF8000;
+    padding: 2px;
+    width: 30px;
+    height: 22px;
+    border: 1px #FF8000;
+    border-radius: 3px;
+}
+
+li img {
+    width: 23px;
+    height: 20px;
+}
+
+ul#secondLine {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 155px;
+    overflow: hidden;
+}
+
+div.transbox {
+    /*margin: 30px;*/
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+#bigText p {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#smallText p {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    margin-top: -45px;
+}
+
+img#personalImage {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+button#noThanksBtn {
+    margin-left: 10px;
+    background: white;
+    width: 90px;
+    height: 45px;
+    border-color: gray;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+button#createNowBtn {
+    margin-left: 40%;
+    width: 155px;
+    background: #2283ce;
+    height: 45px;
+    /* border-color: gray; */
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+div#images {
+    left: 46%;
+}
+
+div#image1 {
+    position: relative;
+    left: 30%;
+    top: 198px;
+    z-index: 2;
+}
+
+div#image2 {
+    position: relative;
+    left: 34%;
+    top: -136px;
+    z-index: 1;
+}
+
+div#image3 {
+    position: relative;
+    top: -305px;
+    left: 61%;
+    z-index: 2;
+}
+
+div#footer {
+    position: absolute;
+    right: 0;
+    top: 655px;
+    left: 0;
+    padding: 1rem;
+    background-color: #46294A;
+}
+
+div#someLinks {
+    text-align: center;
+}
+
+div#getText {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+
+div#connectText {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+div#pickText {
+    display: inline-block;
+    margin-left: 77px;
+}
+
+div#publishText {
+    display: inline-block;
+    margin-left: 77px;
+}
+
+i.firstArrow,span.secondArrow,span.thirdArrow{
+    margin-left: 40px;
+    opacity: 0.4;
+}
+
+p.smallFooterText {
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+p.bigFooterText {
+    color: #F5F5F5;
+}
+
+div#footerBtn {
+    text-align: center;
+}
+
+div#bottomLink {
+    text-align: center;
+}
