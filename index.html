@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-<ul id="firstLine">
-    <li><img id="iosIcon" src="./image/ios_icon.png"></li>
-    <li><p id="slideShare">slideShare</p></li>
-    <li>
-        <div id="input">
-            <input type="text" placeholder="search"/>
-        </div>
-    </li>
-    <li>
-        <button id="uploadButton" class="topButton">Upload</button>
-    </li>
-    <li>
-        <button id="aaButton" class="topButton">aa</button>
-    </li>
-    <li><img id="personalImage" src="./image/xue_qian.jpg"></li>
-</ul>
+
+<header>
+    <div id="firstLine">
+        <ul>
+            <li><img id="iosIcon" src="./image/ios_icon.png"></li>
+            <li><p id="slideShare">slideShare</p></li>
+            <li>
+                <div id="input">
+                    <input type="text" placeholder="search"/>
+                    <span class="fa fa-search"></span>
+                </div>
+            </li>
+            <li>
+                <button id="uploadButton" class="topButton">Upload</button>
+            </li>
+            <li>
+                <button id="aaButton" class="topButton"></button>
+                <span class="fa fa-magic"></span>
+            </li>
+            <li><img id="personalImage" src="./image/xue_qian.jpg"></li>
+        </ul>
+    </div>
+</header>
+
 
 <div class="transbox">
     <ul id="secondLine">
@@ -44,8 +52,13 @@
 </div>
 
 <div id="middleButton">
-    <button id="createNowBtn">Create Now</button>
-    <button id="noThanksBtn">No thanks</button>
+    <div id="createNowBtn">
+        <button>  Create Now</button>
+        <span class="fa fa-linkedin fa-2x"></span>
+    </div>
+    <div id="noThanksBtn">
+        <button >No thanks</button>
+    </div>
 </div>
 
 <div id="images">

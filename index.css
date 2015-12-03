@@ -1,4 +1,4 @@
-ul#firstLine {
+#firstLine ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body {
 #iosIcon {
     width: 40px !important;
     height: 36px !important;
-    padding-left: 156px;
+    padding-left: 210px;
 }
 
 p#slideShare {
@@ -51,6 +51,10 @@ div#input {
     margin-top: 7px;
 }
 
+span.fa.fa-search {
+    margin-left: -20px;
+}
+
 input[type="text"] {
     width: 160px;
     opacity: 0.6;
@@ -65,6 +69,7 @@ input[type="text"] {
     height: 22px;
     border: 1px #FF8000;
     border-radius: 3px;
+    color: white;
 }
 
 #aaButton {
@@ -78,6 +83,11 @@ input[type="text"] {
     border-radius: 3px;
 }
 
+span.fa.fa-magic {
+    margin-left: -26px;
+    color: white;
+}
+
 li img {
     width: 23px;
     height: 20px;
@@ -86,7 +96,7 @@ li img {
 ul#secondLine {
     list-style-type: none;
     margin: 0;
-    padding-left: 155px;
+    padding-left: 210px;
     overflow: hidden;
 }
 
@@ -114,8 +124,8 @@ img#personalImage {
     margin-left: 10px;
 }
 
-button#noThanksBtn {
-    margin-left: 10px;
+#noThanksBtn button {
+    margin-left: 130px;
     background: white;
     width: 90px;
     height: 45px;
@@ -124,14 +134,27 @@ button#noThanksBtn {
     border-radius: 8px;
 }
 
-button#createNowBtn {
+span.fa.fa-linkedin.fa-2x {
+    margin-left: -148px;
+    color: white;
+}
+
+div#noThanksBtn {
+    display: inline;
+}
+#createNowBtn button {
     margin-left: 40%;
     width: 155px;
-    background: #2283ce;
+    background: #277BBB;
     height: 45px;
     /* border-color: gray; */
-    opacity: 0.6;
     border-radius: 8px;
+    color: white;
+    font-size: 13px;
+}
+
+div#createNowBtn {
+    display: inline;
 }
 
 div#images {
@@ -140,14 +163,14 @@ div#images {
 
 div#image1 {
     position: relative;
-    left: 30%;
+    left: 28%;
     top: 198px;
     z-index: 2;
 }
 
 div#image2 {
     position: relative;
-    left: 34%;
+    left: 32%;
     top: -136px;
     z-index: 1;
 }
@@ -155,7 +178,7 @@ div#image2 {
 div#image3 {
     position: relative;
     top: -305px;
-    left: 61%;
+    left: 57%;
     z-index: 2;
 }
 
@@ -170,6 +193,7 @@ div#footer {
 
 div#someLinks {
     text-align: center;
+    margin-top: 45px;
 }
 
 div#getText {
@@ -213,4 +237,19 @@ div#footerBtn {
 
 div#bottomLink {
     text-align: center;
+    color: #ADADAD;
+    font-size: 10px;
+    margin-top: 18px;
+}
+
+div#footerBtn button {
+    /* margin-left: 40%; */
+    width: 150px;
+    background: white;
+    height: 45px;
+    /* border-color: gray; */
+    /* opacity: 0.6; */
+    border-radius: 8px;
+    color: #277BBB;
+    font-size: 13px;
 }
