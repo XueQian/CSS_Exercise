@@ -147,7 +147,6 @@ div#noThanksBtn {
     width: 155px;
     background: #277BBB;
     height: 45px;
-    /* border-color: gray; */
     border-radius: 8px;
     color: white;
     font-size: 13px;
@@ -243,12 +242,9 @@ div#bottomLink {
 }
 
 div#footerBtn button {
-    /* margin-left: 40%; */
     width: 150px;
     background: white;
     height: 45px;
-    /* border-color: gray; */
-    /* opacity: 0.6; */
     border-radius: 8px;
     color: #277BBB;
     font-size: 13px;
