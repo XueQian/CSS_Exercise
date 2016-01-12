@@ -1,20 +1,3 @@
-#firstLine ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    width: 100px;
-    text-decoration: none;
-}
-
 body {
     background-image: url("./image/background.jpeg");
     background-repeat: no-repeat;
@@ -22,45 +5,50 @@ body {
     background-size: cover;
 }
 
-#iosIcon {
+#header #topField ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header li{
+    float: left;
+}
+
+#header a {
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+
+#header #iosIcon {
     width: 40px !important;
     height: 36px !important;
     padding-left: 210px;
 }
 
-p#slideShare {
+#header p#slideShare {
     color: white;
     padding-left: 10px;
     margin-top: 9px;
 }
 
-#searchIcon {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    position: relative;
-    left: -22px;
-    top: 3px;
-    background-image: url("./image/search-icon.png");
-    background-position: center;
-    background-size: cover;
-}
-
-div#input {
+#header #searchInput {
     padding-left: 18px;
     margin-top: 7px;
 }
 
-span.fa.fa-search {
+#header #searchButton {
     margin-left: -20px;
 }
 
-input[type="text"] {
+#header input[type="text"] {
     width: 160px;
     opacity: 0.6;
 }
 
-#uploadButton {
+#header #uploadButton {
     margin-left: 480px;
     margin-top: 10px;
     background: #FF8000;
@@ -72,7 +60,7 @@ input[type="text"] {
     color: white;
 }
 
-#aaButton {
+#header #magicButton {
     margin-left: 5px;
     margin-top: 10px;
     background-color: #FF8000;
@@ -83,28 +71,31 @@ input[type="text"] {
     border-radius: 3px;
 }
 
-span.fa.fa-magic {
+#header #magicIcon {
     margin-left: -26px;
     color: white;
 }
 
-li img {
+#header #personalImage {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 23px;
     height: 20px;
 }
 
-ul#secondLine {
+#header #navigationBar {
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+#header #navigationBar ul{
     list-style-type: none;
     margin: 0;
     padding-left: 210px;
     overflow: hidden;
 }
 
-div.transbox {
-    /*margin: 30px;*/
-    background-color: #ffffff;
-    opacity: 0.6;
-}
+
 
 #bigText p {
     text-align: center;
@@ -119,10 +110,6 @@ div.transbox {
     margin-top: -45px;
 }
 
-img#personalImage {
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
 #noThanksBtn button {
     margin-left: 130px;
@@ -142,6 +129,7 @@ span.fa.fa-linkedin.fa-2x {
 div#noThanksBtn {
     display: inline;
 }
+
 #createNowBtn button {
     margin-left: 40%;
     width: 155px;
@@ -216,7 +204,7 @@ div#publishText {
     margin-left: 77px;
 }
 
-i.firstArrow,span.secondArrow,span.thirdArrow{
+i.firstArrow, span.secondArrow, span.thirdArrow {
     margin-left: 40px;
     opacity: 0.4;
 }
