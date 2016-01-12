@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
+    margin: 7px 0 0 0;
 }
 
 #header #topField ul {
@@ -53,9 +53,13 @@ body {
     margin-left: -20px;
 }
 
-#header input[type="text"] {
-    width: 160px;
-    opacity: 0.6;
+#header #searchInput input {
+    width: 167px;
+    height: 22px;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
 }
 
 #header #uploadButton {
