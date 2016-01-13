@@ -10,11 +10,14 @@ body {
     list-style-type: none;
     overflow: hidden;
     height: 37px;
+    display: table-cell;
 }
 
-#header li{
+#header li {
     float: left;
     text-align: center;
+    /* vertical-align: middle; */
+    display: table-row;
 }
 
 #header a {
