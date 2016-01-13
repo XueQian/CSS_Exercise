@@ -12,19 +12,15 @@ body {
     height: 37px;
 }
 
-#header #topField li {
+#header li{
     float: left;
     text-align: center;
 }
 
-#header li{
-    float: left;
-}
-
 #header a {
     display: block;
-    width: 100px;
     text-decoration: none;
+    padding: 3px 20px;
 }
 
 #header #iosIcon {
