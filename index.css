@@ -10,26 +10,45 @@ body {
     list-style-type: none;
     overflow: hidden;
     height: 37px;
-    display: table-cell;
 }
 
-#header li {
-    float: left;
+#header #topField li {
     text-align: center;
-    /* vertical-align: middle; */
-    display: table-row;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
-#header a {
+#header #topField a {
     display: block;
     text-decoration: none;
     padding: 3px 20px;
 }
 
-#header #iosIcon {
-    width: 40px !important;
-    height: 36px !important;
+#header #navigationBar ul {
     padding-left: 210px;
+    overflow: hidden;
+    display: table;
+    width: 1000px;
+    height: 26px;
+}
+
+#header #navigationBar li {
+    list-style: none;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header #navigationBar a {
+    text-decoration: none;
+    display: block;
+}
+
+#header #iosIcon {
+    padding-left: 210px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #header p#slideShare {
@@ -104,15 +123,6 @@ body {
     background-color: #ffffff;
     opacity: 0.6;
 }
-
-#header #navigationBar ul{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 210px;
-    overflow: hidden;
-}
-
-
 
 #bigText p {
     text-align: center;
