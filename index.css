@@ -6,17 +6,28 @@ body {
     margin: 7px 0 0 0;
 }
 
+/*#header #topField ul {*/
+    /*list-style-type: none;*/
+    /*overflow: hidden;*/
+    /*height: 37px;*/
+/*}*/
+
 #header #topField ul {
     list-style-type: none;
-    overflow: hidden;
-    height: 37px;
+    /* overflow: hidden; */
+    height: 38px;
 }
+
+/*#header #topField li {*/
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*height: 100%;*/
+/*}*/
 
 #header #topField li {
     text-align: center;
     display: inline-block;
-    vertical-align: middle;
-    height: 100%;
 }
 
 #header #topField a {
@@ -45,30 +56,58 @@ body {
     display: block;
 }
 
+/*#header #iosIcon {*/
+    /*padding-left: 210px;*/
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+/*}*/
+
 #header #iosIcon {
     padding-left: 210px;
-    max-width: 100%;
-    max-height: 100%;
+    vertical-align: middle;
+    height: 38px;
 }
+
+/*#header p#slideShare {*/
+    /*color: white;*/
+    /*padding-left: 10px;*/
+    /*margin-top: 9px;*/
+/*}*/
 
 #header p#slideShare {
     color: white;
-    padding-left: 10px;
-    margin-top: 9px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
-#header #longString{
+/*#header #longString{*/
+    /*width: 2px;*/
+    /*height: 14px;*/
+    /*background: #575757;*/
+    /*margin-left: 15px;*/
+    /*border: 0;*/
+    /*margin-top: 12px;*/
+/*}*/
+
+#header #longString {
     width: 2px;
     height: 14px;
     background: #575757;
     margin-left: 15px;
     border: 0;
-    margin-top: 12px;
+    vertical-align: middle;
+    display: inline-block;
 }
+
+/*#header #searchInput {*/
+    /*padding-left: 18px;*/
+    /*margin-top: 7px;*/
+/*}*/
 
 #header #searchInput {
     padding-left: 18px;
-    margin-top: 7px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #header #searchButton {
@@ -84,27 +123,50 @@ body {
     font-size: 16px;
 }
 
+/*#header #uploadButton {*/
+    /*margin-left: 480px;*/
+    /*margin-top: 10px;*/
+    /*background: #FF8000;*/
+    /*padding: 2px;*/
+    /*width: 50px;*/
+    /*height: 22px;*/
+    /*border: 1px #FF8000;*/
+    /*border-radius: 3px;*/
+    /*color: white;*/
+/*}*/
+
 #header #uploadButton {
     margin-left: 480px;
-    margin-top: 10px;
     background: #FF8000;
-    padding: 2px;
     width: 50px;
     height: 22px;
     border: 1px #FF8000;
     border-radius: 3px;
     color: white;
+    vertical-align: middle;
+    display: inline-block;
 }
+
+/*#header #magicButton {*/
+    /*margin-left: 5px;*/
+    /*margin-top: 10px;*/
+    /*background-color: #FF8000;*/
+    /*padding: 2px;*/
+    /*width: 30px;*/
+    /*height: 22px;*/
+    /*border: 1px #FF8000;*/
+    /*border-radius: 3px;*/
+/*}*/
 
 #header #magicButton {
     margin-left: 5px;
-    margin-top: 10px;
     background-color: #FF8000;
-    padding: 2px;
     width: 30px;
     height: 22px;
     border: 1px #FF8000;
     border-radius: 3px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #header #magicIcon {
@@ -112,11 +174,19 @@ body {
     color: white;
 }
 
+/*#header #personalImage {*/
+    /*margin-top: 10px;*/
+    /*margin-left: 10px;*/
+    /*width: 23px;*/
+    /*height: 20px;*/
+/*}*/
+
 #header #personalImage {
-    margin-top: 10px;
     margin-left: 10px;
     width: 23px;
     height: 20px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #header #navigationBar {
