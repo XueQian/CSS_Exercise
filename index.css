@@ -135,19 +135,36 @@ body {
     margin-top: -45px;
 }
 
-#noThanksBtn button {
-    margin-left: 130px;
-    background: white;
-    width: 90px;
-    height: 45px;
-    border-color: gray;
-    opacity: 0.6;
-    border-radius: 8px;
+div#middleButton {
+    text-align: center;
+    vertical-align: middle;
 }
 
-span.fa.fa-linkedin.fa-2x {
-    margin-left: -148px;
+#noThanksBtn button {
+    margin-left: 25px;
+    background: #E2958E;
+    width: 90px;
+    height: 45px;
+    border: 2px #e8ebe9 solid;
+    border-radius: 8px;
     color: white;
+    padding: 0;
+}
+
+#createNowBtn span.fa-linkedin {
+    margin-left: -5px;
+    color: white;
+    font-size: 32px;
+}
+
+#createNowBtn button > *{
+    vertical-align: middle;
+    text-align: center;
+}
+
+#createNowBtn span.text{
+    margin-left: 9px;
+    font-size: 18px;
 }
 
 div#noThanksBtn {
@@ -155,13 +172,12 @@ div#noThanksBtn {
 }
 
 #createNowBtn button {
-    margin-left: 40%;
-    width: 155px;
+    width: 160px;
     background: #277BBB;
     height: 45px;
     border-radius: 8px;
     color: white;
-    font-size: 13px;
+    border: none;
 }
 
 div#createNowBtn {
